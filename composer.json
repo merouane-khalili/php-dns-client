@@ -13,7 +13,7 @@
     "phpunit/phpunit": "^4.8"
   },
   "autoload": {
-    "classmap" : [ "DNS/" ]
+    "psr-4": {"DNS\\": "src/DNS"}
   }
 
 }
